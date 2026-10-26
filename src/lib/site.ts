@@ -41,7 +41,7 @@ export function routeLabel(pathname: string) {
   const map: Record<string, string> = {
     "/": "Home",
     "/work": "Work",
-    "/work/hiredesk": "HireDesk",
+    "/work/hireplume": "HirePlume",
     "/work/booknook": "BookNook",
     "/work/portfolio": "This site",
     "/about": "About",

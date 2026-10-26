@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     qualities: [75, 85],
   },
+  async redirects() {
+    // HireDesk was renamed to HirePlume; keep old links working.
+    return [{ source: "/work/hiredesk", destination: "/work/hireplume", permanent: true }];
+  },
   async headers() {
     return [{ source: "/(.*)", headers: securityHeaders }];
   },

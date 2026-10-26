@@ -27,7 +27,7 @@ const fitColor: Record<Fit, string> = {
   "Needs review": "text-amber border-amber/30 bg-amber/10",
 };
 
-export function HireDeskPipeline() {
+export function HirePlumePipeline() {
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { amount: 0.4 });
   const reduce = useReducedMotion();

@@ -15,17 +15,17 @@ export function ProjectCover({
   preload?: boolean;
   className?: string;
 }) {
-  if (slug === "hiredesk") return <HireDeskCover sizes={sizes} preload={preload} className={className} />;
+  if (slug === "hireplume") return <HirePlumeCover sizes={sizes} preload={preload} className={className} />;
   if (slug === "booknook") return <BookNookCover className={className} />;
   return <PortfolioCover className={className} />;
 }
 
-function HireDeskCover({ sizes, preload, className }: { sizes: string; preload?: boolean; className?: string }) {
+function HirePlumeCover({ sizes, preload, className }: { sizes: string; preload?: boolean; className?: string }) {
   return (
     <div className={cn("absolute inset-0 bg-ink-900", className)}>
       <Image
-        src="/images/work/hiredesk-hero.jpg"
-        alt="HireDesk landing page: “Hire the right people, with confidence.” with a candidate pipeline card"
+        src="/images/work/hireplume-hero.jpg"
+        alt="HirePlume landing page: “Hire the right people, with confidence.” with a candidate pipeline card"
         fill
         sizes={sizes}
         preload={preload}

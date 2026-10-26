@@ -7,7 +7,7 @@ export type AccentWord = {
 
 /**
  * Splits copy into words, marking `*starred*` runs as accented.
- * Punctuation that touches an accented run ("*HireDesk*,") stays attached.
+ * Punctuation that touches an accented run ("*HirePlume*,") stays attached.
  */
 export function parseAccent(text: string): AccentWord[] {
   const words: AccentWord[] = [];

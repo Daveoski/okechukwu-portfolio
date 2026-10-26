@@ -13,7 +13,7 @@ import { pad } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Case studies and builds by Okechukwu Orjionuchie — HireDesk, an applicant-tracking platform on Next.js and FastAPI; BookNook, a cloud API on Microsoft Azure; and more.",
+    "Case studies and builds by Okechukwu Orjionuchie — HirePlume, an applicant-tracking platform on Next.js and FastAPI; BookNook, a cloud API on Microsoft Azure; and more.",
   alternates: { canonical: "/work" },
 };
 

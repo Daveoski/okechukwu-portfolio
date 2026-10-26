@@ -14,7 +14,7 @@ export const accentHex: Record<Accent, string> = {
 /* ------------------------------------------------------------------ Work */
 
 export type Project = {
-  slug: "hiredesk" | "booknook" | "portfolio";
+  slug: "hireplume" | "booknook" | "portfolio";
   href: string;
   index: string;
   title: string;
@@ -31,10 +31,10 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "hiredesk",
-    href: "/work/hiredesk",
+    slug: "hireplume",
+    href: "/work/hireplume",
     index: "01",
-    title: "HireDesk",
+    title: "HirePlume",
     kicker: "Applicant-tracking platform",
     year: "2026",
     role: "Founder & full-stack developer",
@@ -43,8 +43,8 @@ export const projects: Project[] = [
       "One calm workspace for the whole hiring process — applications, interviews, scorecards and decisions — with an AI screening assistant that advises while people decide.",
     stack: ["Next.js", "TypeScript", "FastAPI", "PostgreSQL", "Gemini AI", "Vercel"],
     accent: "gfp",
-    live: "https://hiredesk-app.vercel.app",
-    repo: "https://github.com/Daveoski/hiredesk_official",
+    live: "https://hireplume-app.vercel.app",
+    repo: "https://github.com/Daveoski/hireplume_official",
   },
   {
     slug: "booknook",
@@ -177,7 +177,7 @@ export const experience: Experience[] = [
     points: [
       "Build full-stack web applications with Next.js, React and TypeScript, styling responsive interfaces with Tailwind CSS and shadcn/ui components.",
       "Develop back-end services and REST APIs with Node.js and Python (FastAPI), working with relational (PostgreSQL) and NoSQL (MongoDB) databases.",
-      "Manage code with Git and GitHub and apply the programme's software-engineering and career-readiness training to real product work, including HireDesk.",
+      "Manage code with Git and GitHub and apply the programme's software-engineering and career-readiness training to real product work, including HirePlume.",
     ],
     tags: ["Next.js", "TypeScript", "FastAPI", "PostgreSQL", "MongoDB", "Git"],
   },
@@ -373,27 +373,27 @@ export type StackElement = {
 };
 
 export const elements: StackElement[] = [
-  { n: 1, sym: "Nx", name: "Next.js", group: "frontend", note: "App Router, server components, routing and deployment.", usedIn: ["HireDesk", "This site", "JKJ Exchange"] },
-  { n: 2, sym: "Re", name: "React", group: "frontend", note: "Component-driven interfaces with hooks and React 19.", usedIn: ["HireDesk", "This site"] },
-  { n: 3, sym: "Ts", name: "TypeScript", group: "frontend", note: "Typed, self-documenting code from UI to API client.", usedIn: ["HireDesk", "This site"] },
+  { n: 1, sym: "Nx", name: "Next.js", group: "frontend", note: "App Router, server components, routing and deployment.", usedIn: ["HirePlume", "This site", "JKJ Exchange"] },
+  { n: 2, sym: "Re", name: "React", group: "frontend", note: "Component-driven interfaces with hooks and React 19.", usedIn: ["HirePlume", "This site"] },
+  { n: 3, sym: "Ts", name: "TypeScript", group: "frontend", note: "Typed, self-documenting code from UI to API client.", usedIn: ["HirePlume", "This site"] },
   { n: 4, sym: "Js", name: "JavaScript", group: "frontend", note: "The language under it all — modules, async and the DOM.", usedIn: ["BookNook"] },
   { n: 5, sym: "Ht", name: "HTML5", group: "frontend", note: "Semantic, accessible markup comes first.", usedIn: ["Every project"] },
-  { n: 6, sym: "Tw", name: "Tailwind CSS", group: "frontend", note: "Design tokens and responsive layouts at speed.", usedIn: ["HireDesk", "This site"] },
+  { n: 6, sym: "Tw", name: "Tailwind CSS", group: "frontend", note: "Design tokens and responsive layouts at speed.", usedIn: ["HirePlume", "This site"] },
   { n: 7, sym: "Sh", name: "shadcn/ui", group: "frontend", note: "Accessible, composable primitives built on Radix.", usedIn: ["Hackathon Africa"] },
   { n: 8, sym: "No", name: "Node.js", group: "backend", note: "JavaScript on the server — APIs, tooling and scripts.", usedIn: ["BookNook"] },
   { n: 9, sym: "Ex", name: "Express", group: "backend", note: "Lean REST APIs with clear status codes.", usedIn: ["BookNook"] },
-  { n: 10, sym: "Py", name: "Python", group: "backend", note: "Readable back ends, scripting and data work.", usedIn: ["HireDesk", "Swift Arrow"] },
-  { n: 11, sym: "Fa", name: "FastAPI", group: "backend", note: "Typed, documented, high-performance Python APIs.", usedIn: ["HireDesk", "JKJ Exchange"] },
-  { n: 12, sym: "Ap", name: "REST APIs", group: "backend", note: "Predictable contracts between client and server.", usedIn: ["HireDesk", "BookNook"] },
-  { n: 13, sym: "Pg", name: "PostgreSQL", group: "data", note: "Relational modelling with migrations and integrity.", usedIn: ["HireDesk", "JKJ Exchange"] },
+  { n: 10, sym: "Py", name: "Python", group: "backend", note: "Readable back ends, scripting and data work.", usedIn: ["HirePlume", "Swift Arrow"] },
+  { n: 11, sym: "Fa", name: "FastAPI", group: "backend", note: "Typed, documented, high-performance Python APIs.", usedIn: ["HirePlume", "JKJ Exchange"] },
+  { n: 12, sym: "Ap", name: "REST APIs", group: "backend", note: "Predictable contracts between client and server.", usedIn: ["HirePlume", "BookNook"] },
+  { n: 13, sym: "Pg", name: "PostgreSQL", group: "data", note: "Relational modelling with migrations and integrity.", usedIn: ["HirePlume", "JKJ Exchange"] },
   { n: 14, sym: "Mg", name: "MongoDB", group: "data", note: "Document storage for flexible, NoSQL workloads.", usedIn: ["Hackathon Africa"] },
   { n: 15, sym: "Sq", name: "SQL Server", group: "data", note: "Azure SQL with parameterised queries.", usedIn: ["BookNook"] },
   { n: 16, sym: "Gt", name: "Git", group: "cloud", note: "Version control, branching and clean history.", usedIn: ["Every project"] },
-  { n: 17, sym: "Gh", name: "GitHub", group: "cloud", note: "Reviews, Actions CI/CD and scheduled jobs.", usedIn: ["HireDesk", "BookNook"] },
-  { n: 18, sym: "Vc", name: "Vercel", group: "cloud", note: "Previews, serverless functions and production hosting.", usedIn: ["HireDesk", "This site"] },
+  { n: 17, sym: "Gh", name: "GitHub", group: "cloud", note: "Reviews, Actions CI/CD and scheduled jobs.", usedIn: ["HirePlume", "BookNook"] },
+  { n: 18, sym: "Vc", name: "Vercel", group: "cloud", note: "Previews, serverless functions and production hosting.", usedIn: ["HirePlume", "This site"] },
   { n: 19, sym: "Az", name: "Azure", group: "cloud", note: "App Service, SQL, Key Vault and Blob Storage.", usedIn: ["BookNook"] },
   { n: 20, sym: "Vm", name: "Virtual machines", group: "cloud", note: "IaaS fundamentals — compute, networking, storage.", usedIn: ["NCDMB cloud training"] },
-  { n: 21, sym: "Ai", name: "Generative AI", group: "cloud", note: "Prompt engineering and human-in-the-loop AI features.", usedIn: ["HireDesk"] },
+  { n: 21, sym: "Ai", name: "Generative AI", group: "cloud", note: "Prompt engineering and human-in-the-loop AI features.", usedIn: ["HirePlume"] },
   { n: 22, sym: "Nm", name: "Network monitoring", group: "security", note: "Watching traffic for anomalies and threats.", usedIn: ["Foretrust · 3MTT"] },
   { n: 23, sym: "Ir", name: "Incident response", group: "security", note: "Investigate, contain and report — in real time.", usedIn: ["Foretrust · 3MTT"] },
   { n: 24, sym: "Fw", name: "Firewalls", group: "security", note: "Perimeter controls, installed and operated.", usedIn: ["Foretrust · 3MTT"] },
@@ -550,7 +550,7 @@ export const journey: Milestone[] = [
   },
   {
     year: "2026",
-    title: "Full-stack developer — HireDesk goes live",
+    title: "Full-stack developer — HirePlume goes live",
     place: "Hackathon Africa Programme",
     note: "Alongside NCDMB × CypherCrescent cloud-computing training.",
     tag: "Software",
@@ -583,7 +583,7 @@ export const stats = [
     value: 1,
     suffix: "",
     label: "Product live in production",
-    note: "HireDesk — a Next.js and FastAPI platform on Vercel and Neon.",
+    note: "HirePlume — a Next.js and FastAPI platform on Vercel and Neon.",
   },
 ];
 

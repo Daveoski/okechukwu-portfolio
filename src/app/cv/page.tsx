@@ -26,9 +26,9 @@ const skills = [
 
 const cvProjects = [
   {
-    title: "HireDesk",
+    title: "HirePlume",
     role: "Founder & Full-Stack Developer",
-    meta: "hiredesk-app.vercel.app · Next.js, TypeScript, FastAPI, PostgreSQL · Vercel & Neon",
+    meta: "hireplume-app.vercel.app · Next.js, TypeScript, FastAPI, PostgreSQL · Vercel & Neon",
     points: [
       "Built and launched an applicant-tracking platform that brings applications, interview scheduling, scorecards and hiring decisions into one shared workspace.",
       "One public application link per role (no candidate account), a five-stage pipeline from Applied to Hired, and signed direct-to-Cloudinary CV uploads verified by the API.",
@@ -85,7 +85,7 @@ export default function CvPage() {
             <p>
               Full-stack developer building responsive web applications with Next.js, React and TypeScript
               on Node.js and Python (FastAPI) back ends, using PostgreSQL and MongoDB. Founder and developer
-              of HireDesk, a live applicant-tracking platform. Brings a biochemistry degree and health
+              of HirePlume, a live applicant-tracking platform. Brings a biochemistry degree and health
               certifications, plus hands-on cybersecurity, cloud computing, project-management and
               customer-facing experience, and is seeking a full-stack developer or wider technology role where
               clear communication, teamwork and reliable delivery matter.

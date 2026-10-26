@@ -12,13 +12,13 @@ import {
   Prose,
   StackList,
 } from "@/components/work/case-study";
-import { HireDeskPipeline } from "@/components/work/hiredesk-pipeline";
+import { HirePlumePipeline } from "@/components/work/hireplume-pipeline";
 
 export const metadata: Metadata = {
-  title: "HireDesk — case study",
+  title: "HirePlume — case study",
   description:
-    "HireDesk is an applicant-tracking platform founded and built by Okechukwu Orjionuchie: a Next.js web client and FastAPI backend on Vercel and Neon Postgres, with advisory AI screening.",
-  alternates: { canonical: "/work/hiredesk" },
+    "HirePlume is an applicant-tracking platform founded and built by Okechukwu Orjionuchie: a Next.js web client and FastAPI backend on Vercel and Neon Postgres, with advisory AI screening.",
+  alternates: { canonical: "/work/hireplume" },
 };
 
 const features = [
@@ -55,8 +55,8 @@ const decisions = [
   },
 ];
 
-export default function HireDeskPage() {
-  const { project, next } = getProject("hiredesk");
+export default function HirePlumePage() {
+  const { project, next } = getProject("hireplume");
 
   return (
     <>
@@ -71,7 +71,7 @@ export default function HireDeskPage() {
             — or why.
           </p>
           <p>
-            <strong>HireDesk brings every application, interview, scorecard and decision into one shared
+            <strong>HirePlume brings every application, interview, scorecard and decision into one shared
             workspace.</strong> I founded it, wrote the product and software requirements, designed it and
             built it end to end: a Next.js web client and a FastAPI backend that owns authentication,
             authorisation, hiring rules, persistence, uploads and email.
@@ -88,7 +88,7 @@ export default function HireDeskPage() {
           </p>
         </Prose>
         <Reveal className="mt-10">
-          <HireDeskPipeline />
+          <HirePlumePipeline />
         </Reveal>
       </CaseSection>
 
@@ -105,7 +105,7 @@ export default function HireDeskPage() {
         </Prose>
         <div className="mt-10">
           <ArchFrame
-            title="Fig. 1 — HireDesk system architecture"
+            title="Fig. 1 — HirePlume system architecture"
             footer={
               <div className="grid gap-3 text-[13px] text-bone-dim md:grid-cols-3">
                 <p><span className="type-label mr-2 text-gfp">CI</span>pytest on every push and pull request</p>
@@ -149,23 +149,23 @@ export default function HireDeskPage() {
       <CaseSection index="07" label="In production" title="Live, and *in the open.*">
         <div className="grid gap-10">
           <CaseFigure
-            src="/images/work/hiredesk-features.jpg"
-            alt="HireDesk features section: AI screening and final review, job adverts, public application links, interviews, scorecards, progress reports, team invitations and secure sign-in"
+            src="/images/work/hireplume-features.jpg"
+            alt="HirePlume features section: AI screening and final review, job adverts, public application links, interviews, scorecards, progress reports, team invitations and secure sign-in"
             caption="Fig. 2 — Everything in one workspace"
             width={2880}
             height={2372}
           />
           <div className="grid gap-10 md:grid-cols-2">
             <CaseFigure
-              src="/images/work/hiredesk-workflow.jpg"
-              alt="HireDesk workflow: applications with context, interviews thoughtfully assigned, decisions clearly recorded"
+              src="/images/work/hireplume-workflow.jpg"
+              alt="HirePlume workflow: applications with context, interviews thoughtfully assigned, decisions clearly recorded"
               caption="Fig. 3 — One process, three clear steps"
               width={2880}
               height={1512}
             />
             <CaseFigure
-              src="/images/work/hiredesk-roles.jpg"
-              alt="HireDesk roles: company admin, hiring manager and interviewer, each with distinct responsibilities"
+              src="/images/work/hireplume-roles.jpg"
+              alt="HirePlume roles: company admin, hiring manager and interviewer, each with distinct responsibilities"
               caption="Fig. 4 — Distinct roles, shared outcome"
               width={2880}
               height={1420}
@@ -174,7 +174,7 @@ export default function HireDeskPage() {
         </div>
         <Prose>
           <p className="mt-12">
-            HireDesk is live at <strong>hiredesk-app.vercel.app</strong>. Building it solo taught me to
+            HirePlume is live at <strong>hireplume-app.vercel.app</strong>. Building it solo taught me to
             treat requirements, tests and migrations as product features — and to keep AI in an advisory
             role, so the people accountable for a hire stay the ones who make it.
           </p>

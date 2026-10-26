@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "Biochemist",
     "Enugu",
     "Nigeria",
-    "HireDesk",
+    "HirePlume",
   ],
   alternates: { canonical: "/" },
   openGraph: {

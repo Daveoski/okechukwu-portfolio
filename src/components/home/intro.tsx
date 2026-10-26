@@ -5,7 +5,7 @@ import { SectionLabel } from "@/components/ui/section-label";
 import { SpecimenPortrait } from "./specimen-portrait";
 
 const statement =
-  "I'm Okechukwu — a *biochemist* turned full-stack developer. The lab taught me to question assumptions, measure carefully and write everything down. Today I bring that same discipline to software: fast, secure, human-centred products built with Next.js, TypeScript and Python — like *HireDesk*, an applicant-tracking platform I founded and shipped to production.";
+  "I'm Okechukwu — a *biochemist* turned full-stack developer. The lab taught me to question assumptions, measure carefully and write everything down. Today I bring that same discipline to software: fast, secure, human-centred products built with Next.js, TypeScript and Python — like *HirePlume*, an applicant-tracking platform I founded and shipped to production.";
 
 export function Intro() {
   return (

@@ -4,7 +4,7 @@ import { siteUrl } from "@/lib/site";
 const routes = [
   { path: "", priority: 1 },
   { path: "/work", priority: 0.9 },
-  { path: "/work/hiredesk", priority: 0.9 },
+  { path: "/work/hireplume", priority: 0.9 },
   { path: "/work/booknook", priority: 0.7 },
   { path: "/work/portfolio", priority: 0.6 },
   { path: "/about", priority: 0.8 },

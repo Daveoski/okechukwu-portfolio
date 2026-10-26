@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const story = [
   "I studied Biochemistry at the University of Nigeria, Nsukka, and graduated with Second Class Upper honours in 2021. The lab gave me habits I still lean on every day: question the obvious, control your variables, measure twice and write everything down.",
   "My path since has been deliberately wide. I've helped keep pharmaceutical manufacturing in line with national and international standards, taught secondary-school students, served as a presiding officer for INEC, run inventory and projects, guided clients through digital investments and monitored networks as a cybersecurity analyst. Each role sharpened a different instinct — precision, clarity, integrity, ownership, empathy and vigilance.",
-  "Software is where those instincts meet. On the Hackathon Africa programme I build full-stack products with Next.js, React, TypeScript, Node.js and Python (FastAPI) on PostgreSQL and MongoDB — and I founded HireDesk, an applicant-tracking platform that's now live in production.",
+  "Software is where those instincts meet. On the Hackathon Africa programme I build full-stack products with Next.js, React, TypeScript, Node.js and Python (FastAPI) on PostgreSQL and MongoDB — and I founded HirePlume, an applicant-tracking platform that's now live in production.",
   "I'm looking for a full-stack developer or wider technology role where clear communication, teamwork and reliable delivery matter. If that sounds like your team, I'd love to talk.",
 ];
 
